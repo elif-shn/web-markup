@@ -1,0 +1,75 @@
+body{
+    width: 1000px;
+    margin: 0 auto;
+}
+header {
+    text-align: center;        
+    align-items: center;
+    border: 2px solid #333;
+}
+nav{
+    background-color: #000;
+    height:  5em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+nav li {
+    margin-right: 10px;
+}
+.banner {
+  display: flex;
+}
+.banner > img {
+  width: 80%;
+  height: 470px;
+  float:left;
+  margin-right: 40px;
+}
+.banner aside {
+  width: 20%;
+  height: 70px;
+  float:right;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.features {
+  width: 100%;
+  padding: 40px;
+  overflow: hidden; 
+}
+.features article {
+  float: left;
+  width: 45%;
+  margin: 2.5%;
+}
+.features img {
+  float: left;
+  width: 150px;
+  height: 150px;
+  margin-right: 20px;  
+}
+a{
+  float: right;
+}
+footer {
+  background-color: #cfcaca;
+  padding: 40px 20px;
+  overflow: hidden;
+}
+footer section {
+  float: left;
+  width: 23%;
+  margin-right: 2%;
+}
+footer img {
+  width: 20%;
+  margin: 5px 2%;
+}
